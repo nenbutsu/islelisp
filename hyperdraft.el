@@ -37,7 +37,7 @@
 (require 'thingatpt)
 
 (defvar islisp-hyperdraft-root
-  "http://minejima.jp/HyperDraft/islisp-v23.html"
+  "http://minejima.jp/ISLispHyperDraft/islisp-v23.html"
   "The root of ISLisp HyperDraft URL.
 If you copy the Hyperdraft to your local system, set this variable to
 something like \"file:/usr/local/doc/HyperDraft/islisp-v23.html\".")
@@ -199,6 +199,46 @@ function to view the separate definitions."
           ("get-internal-run-time" "f_get_internal_run_time")
           ("get-internal-real-time" "f_get_internal_real_time")
           ("internal-time-units-per-second" "f_internal_time_units_per_second")
+
+          ("function" "s_function")
+          ("lambda" "s_lambda")
+          ("labels" "s_labels")
+          ("flet" "s_flet")
+          ("or" "s_or")
+          ("quote" "s_quote")
+          ("setq" "s_setq")
+          ("setf" "s_setf")
+          ("let" "s_let")
+          ("let*" "s_let_s")
+          ("dynamic" "s_dynamic")
+          ("set-dynamic" "s_set_dynamic")
+          ("dynamic-let" "s_dynamic_let")
+          ("if" "s_if")
+          ("cond" "s_cond")
+          ("case" "s_case")
+          ("case-using" "s_case_using")
+          ("progn" "s_progn")
+          ("while" "s_while")
+          ("for" "s_for")
+          ("block" "s_block")
+          ("return-from" "s_return_from")
+          ("catch" "s_catch")
+          ("throw" "s_throw")
+          ("tagbody" "s_tagbody")
+          ("go" "s_go")
+          ("unwind-protect" "s_unwind_protect")
+          ("class" "s_class")
+          ("the" "s_the")
+          ("assure" "s_assure")
+          ("convert" "s_convert")
+          ("with-standard-input" "s_with_standard_input")
+          ("with-standard-output" "s_with_standard_output")
+          ("with-error-output" "s_with_error_output")
+          ("with-open-output-file" "s_with_open_output_file")
+          ("with-open-io-file" "s_with_open_io_file")
+          ("with-open-input-file" "s_with_open_input_file")
+          ("ignore-errors" "s_ignore_errors")
+          ("with-handler" "s_with_handler")
           
           ))
                 
