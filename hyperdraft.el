@@ -25,7 +25,7 @@
 ;; Boston, MA 02111-1307, USA.
 
 ;;; Commentary:
-;; This package is an adaptation of Erik Naggum's hyperspec.el for ISLisp.
+;; This package is an adaptation of Erik Naggum's hyperspec.el to ISLisp.
 ;; Enter `M-x islisp-hyperdraft' and the name of ISLisp items(functions, variables, etc).
 ;; Then the default web browser shows that part of ISLispHyperDraft (ISO ISLisp specification
 ;; draft).
