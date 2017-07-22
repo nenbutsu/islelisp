@@ -199,6 +199,10 @@ function to view the separate definitions."
           ("char<=" "f_char_lteq")
           ("char>=" "f_char_gteq")
           ("functionp" "f_functionp")
+          ("apply" "f_apply")
+          ("funcall" "f_funcall")
+          
+          
           
           
 
