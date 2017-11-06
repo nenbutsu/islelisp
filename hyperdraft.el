@@ -37,7 +37,7 @@
 (require 'thingatpt)
 
 (defvar islisp-hyperdraft-root
-  "http://minejima.jp/ISLispHyperDraft/islisp-v23.html"
+  "https://nenbutsu.github.io/ISLispHyperDraft/islisp-v23.html"
   "The root of ISLisp HyperDraft URL.
 If you copy the Hyperdraft to your local system, set this variable to
 something like \"file:/usr/local/doc/HyperDraft/islisp-v23.html\".")
@@ -95,7 +95,8 @@ function to view the separate definitions."
             (if (boundp symbol)
                 (push (cadr entry) (symbol-value symbol))
               (set symbol (cdr entry)))))
-        '(("consp" "f_consp")
+        '(("read" "f_read")
+          ("consp" "f_consp")
           ("car" "f_car")
           ("cdr" "f_cdr")
           ("cons" "f_cons")
@@ -201,6 +202,11 @@ function to view the separate definitions."
           ("functionp" "f_functionp")
           ("apply" "f_apply")
           ("funcall" "f_funcall")
+          ("elt" "f_elt")
+          ("set-elt" "f_set_elt")
+          ("standard-input" "f_standard_input")
+          ("standard-output" "f_standard_outnput")
+          ("error-output" "f_error_outnput")
           
           
           
